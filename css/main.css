@@ -1,55 +1,64 @@
-.container{
+.container {
     width: 1300px;
-    margin:auto
+    margin: auto
+}
 
+.header-flexbox {
+    display: flex;
+    justify-content: space-between;
+    outline: solid 2px blue;
+    height: 50px;
 }
-.header-flexbox{
-display: flex;
-justify-content: space-between;
-outline: solid 2px blue;
-height: 50px;
+
+.banner-flexbox {
+    display: flex;
+    justify-content: space-between;
+    outline: solid 2px goldenrod;
+    height: 350px;
 }
-.banner-flexbox{
-display: flex;
-justify-content: space-between;
-outline: solid 2px goldenrod;
-height: 350px;
-}
-.highlights-flexbox{
+
+.highlights-flexbox {
     display: flex;
     justify-content: space-between;
     outline: solid 2px violet;
     height: 350px;
 }
-.statistics-flexbox{
+
+.statistics-flexbox {
     display: flex;
     justify-content: space-around;
     outline: solid 2px greenyellow;
     height: 100px;
 }
-.services-header{
+
+.services-header {
     height: 100px;
     outline: solid 2px maroon;
 }
-.services-content{
+
+.services-content {
     display: flex;
     flex-wrap: wrap;
 }
-.services-service{
+
+.services-service {
     width: 33.333%;
     height: 150px;
     outline: solid 2px blue;
 }
-.portfolio-header{
+
+.portfolio-header {
     outline: solid 2px black;
-    
+
 }
-.portfolio-content{
+
+.portfolio-content {
     display: flex;
     flex-wrap: wrap;
 }
-.portfolio-image{
-width: 33.333%;
-height: 150px;
-outline: solid 2px blueviolet;
+
+.portfolio-image {
+    width: 33.333%;
+    height: 150px;
+    outline: solid 2px blueviolet;
 }
