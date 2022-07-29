@@ -1,0 +1,55 @@
+.container{
+    width: 1300px;
+    margin:auto
+
+}
+.header-flexbox{
+display: flex;
+justify-content: space-between;
+outline: solid 2px blue;
+height: 50px;
+}
+.banner-flexbox{
+display: flex;
+justify-content: space-between;
+outline: solid 2px goldenrod;
+height: 350px;
+}
+.highlights-flexbox{
+    display: flex;
+    justify-content: space-between;
+    outline: solid 2px violet;
+    height: 350px;
+}
+.statistics-flexbox{
+    display: flex;
+    justify-content: space-around;
+    outline: solid 2px greenyellow;
+    height: 100px;
+}
+.services-header{
+    height: 100px;
+    outline: solid 2px maroon;
+}
+.services-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.services-service{
+    width: 33.333%;
+    height: 150px;
+    outline: solid 2px blue;
+}
+.portfolio-header{
+    outline: solid 2px black;
+    
+}
+.portfolio-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio-image{
+width: 33.333%;
+height: 150px;
+outline: solid 2px blueviolet;
+}
